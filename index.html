@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Carousel </title>
+	<link rel="stylesheet" href="css/miestilo.css">
+	
+	
+</head>
+
+	<body>
+		<div class="contenedorprincipal">
+        
+		    <div class="miSlide degradado">
+		        <div class="numero">1/4</div>
+		        <img src="resources/img1.jpg" style="width:100%">
+		        <div class="texto">Slide one</div>
+		    </div>
+		    
+		    <div class="miSlide degradado">
+		        <div class="numero">2/4</div>
+		        <img src="resources/img2.jpg" style="width:100%">
+		        <div class="texto">Slide two</div>
+		    </div>
+		    
+		    <div class="miSlide degradado">
+		        <div class="numero">3/4</div>
+		        <img src="resources/img3.jpg" style="width:100%">
+		        <div class="texto">Slide three</div>
+		    </div>
+		    
+		    <div class="miSlide degradado">
+		        <div class="numero">4/4</div>
+		        <img src="resources/img4.jpg" style="width:100%">
+		        <div class="texto">Slide four</div>
+		    </div>
+		    
+		    <a class="anterior" onclick="masSlides(-1)">&#10094;</a>
+		    <a class="siguiente" onclick="masSlides(1)">&#10095;</a>
+		   
+		</div>
+		 <br>
+		<div style="text-align: center">
+		        <span class="punto" onclick="SlideActual(1)"></span>
+		        <span class="punto" onclick="SlideActual(2)"></span>
+		        <span class="punto" onclick="SlideActual(3)"></span>
+		        <span class="punto" onclick="SlideActual(4)"></span>
+        </div>
+        <!--<script src="js/automatic.js"></script> -->
+        <script src="js/script.js"></script>
+	</body>
+
+</html>
